@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './estilos.css';
 /*
     uso de props:
     -props -> propiedad (parametros)
@@ -10,8 +10,7 @@ import React, { Component } from 'react';
 
 class nuevocliente4 extends Component{
     render(){
-        return <p>Mi nombre es {this.props.nombre} soy un VerCliente
-        y tengo {this.props.edad} años </p>
+        return <p className="Nc4" >Mi nombre es {this.props.nombre } y tengo {this.props.edad} años </p>
     }
 }
 

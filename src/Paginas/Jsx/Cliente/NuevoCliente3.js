@@ -1,4 +1,5 @@
 import React from 'react';
+import './estilos.css';
 
 /*
     uso de props:
@@ -8,7 +9,7 @@ import React from 'react';
 */
 
 const nuevocliente3 = (props) =>{
-    return <p>Mi Nombre es {props.nombre}, soy un cliente
+    return <p className="Nc3" >Mi Nombre es {props.nombre}, soy un cliente
         y tengo {props.edad} años de edad </p>
 }
 

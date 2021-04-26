@@ -1,4 +1,28 @@
 .Nc1 {
     font-family: cursive;
+    color: darkblue;
     font-size: 25px;
+    font-weight: 600;
+  }
+
+.Nc2 {
+    font-family: monospace;
+    font-size: 17px;
+    color:red;
+    font-weight: 800;
+  }
+
+.Nc3 {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: mediumblue;
+    text-decoration: underline;
+  }
+
+.Nc4 {
+    border: cyan 5px solid;
+    margin: 10px 390px 10px;
+    font-weight: lighter;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
