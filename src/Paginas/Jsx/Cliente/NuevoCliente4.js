@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 /*
     uso de props:
@@ -8,3 +8,11 @@ import React from 'react';
     -utilizacion de props en un class based component
 */
 
+class nuevocliente4 extends Component{
+    render(){
+        return <p>Mi nombre es {this.props.nombre} soy un VerCliente
+        y tengo {this.props.edad} años </p>
+    }
+}
+
+export default nuevocliente4;
