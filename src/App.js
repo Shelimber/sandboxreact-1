@@ -2,6 +2,7 @@ import Menu from './Paginas/Menu';
 import Submenu from './Paginas/Submenu';
 import './App.css';
 import VerClientes1 from './Paginas/Jsx/Cliente/VerClientes1';
+import VerEjemplos from './Paginas/Jsx/Ejemplos/VerEjemplos';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </p>
         <p>
           <VerClientes1 />
+        </p>
+        <p>
+          <VerEjemplos />
         </p>
         <h3>@Shely_Hzo</h3>
       </main>

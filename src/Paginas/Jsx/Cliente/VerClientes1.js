@@ -11,7 +11,7 @@ class verclientes1 extends Component{
     render(){
         return(
             <div>
-                <p>Uso de class based Components</p>
+                <h3>Uso de class based Components</h3>
                 <NuevoCliente1/>
                 <NuevoCliente2/>
                 <NuevoCliente3 nombre='Luke SkyWalker' edad='25'/>
